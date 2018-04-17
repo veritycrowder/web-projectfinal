@@ -1,13 +1,142 @@
-<h1> Contact us </h1>
+
+<link rel="stylesheet" href="contact_stylesheet.css" > </link>
+
+<body background="https://images.unsplash.com/photo-1426869884541-df7117556757?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6f3f4a6f359875679161702e81f2337a&auto=format&fit=crop&w=1950&q=80">
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Cuisson</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<div class="container">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+    <div class="jumbotron">
+      <h1>Contact Us</h1>
+      <p>
+        Here at the online recipe cool website name, we want to spread the joy of good food and satisfied stomaches. If you have any questions, suggestions, or would like to have one of your recipes featured on our website, then please contact us using the form on this page. Happy cooking!
+        - Cool online recipe website title Team
+      </p>
+    </div>
+
+
+
+    <form method="post" name="contact_form"
+  action="contact-form-handler.php">
+      Your Name:
+      <input type="text" name="name" placeholder="Full Name">
+      Email Address:
+      <input type="text" name="email" placeholder="hello@example.com">
+      Message:
+      <textarea id="Message" name="Message" placeholder="Write something.." style="height:200px">      </textarea>
+
+      <input type="submit" value="Submit">
+  </form>
+  </body>
+
+</div>
+
+
+</html>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+.fa {
+  padding: 0.5%;
+  font-size: 28px;
+  width: 40px;
+  text-align: center;
+  /* text-decoration: none; */
+  /* margin: 5px 2px; */
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.icons{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+</style>
+</head>
 <body>
-  <form method="post" name="contact_form"
-action="contact-form-handler.php">
-    Your Name:
-    <input type="text" name="name">
-    Email Address:
-    <input type="text" name="email">
-    Message:
-    <textarea name="message"></textarea>
-    <input type="submit" value="Submit">
-</form>
+
+<div class="icons">
+<!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-pinterest"></a>
+<a href="#" class="fa fa-snapchat-ghost"></a>
+</div>
+
 </body>
+</html>
